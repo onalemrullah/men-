@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    min-height: 140px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.yan{
+    display: flex;
+    align-items: center;
+}
+h4{
+    color: white;
+    font-family: 'Anton', sans-serif;
+font-family: 'Kolker Brush', cursive;
+font-size: 25px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 17px;
+    font-size: 17px;
+}
+.logo{
+    height: 135px;
+    width: 80px;
+}
+.logo:hover{
+    height: 140px;
+    width: 90px;
+}
+header > ul > li > a:hover{
+   padding: 10px;
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+   margin-left: 15px;
+}
+/*main bölümü */
+main{
+    height: 750px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 30px;
+}
+h3{
+    color: white;
+    font-family: Dancing Script;
+    font-size: 25px;
+}
+img{
+    height: 480px;
+    width: 420px;
+}
+img:hover{
+    height: 510px;
+    width: 450px;
+}
+h3:hover{
+    font-size: 27px;
+}
